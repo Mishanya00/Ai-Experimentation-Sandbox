@@ -1,0 +1,13 @@
+[project]
+name = "ai-experimentation-sandbox"
+version = "0.1.0"
+description = "AI engineering research, prototyping, and experimentation"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "experiments/*",
+    "scripts",
+]

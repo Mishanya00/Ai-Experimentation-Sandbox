@@ -1,0 +1,19 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[manifest]
+members = [
+    "ai-experimentation-sandbox",
+    "scripts",
+]
+
+[[package]]
+name = "ai-experimentation-sandbox"
+version = "0.1.0"
+source = { virtual = "." }
+
+[[package]]
+name = "scripts"
+version = "0.1.0"
+source = { virtual = "scripts" }
